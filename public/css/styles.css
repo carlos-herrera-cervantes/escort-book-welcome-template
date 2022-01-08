@@ -1,0 +1,67 @@
+/* REVIEW: Para elementos del marcado */
+
+body {
+    color: white;
+    background-color: #3C4556;
+    font-family: arial;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 0 16px;
+  
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #F0B27A;
+  }
+  
+  article {
+    margin-top: 16px;
+  }
+  
+  h1 {
+    font-size: 64px;
+  }
+  
+  /* REVIEW: Para contenedores */
+  
+  .main-content {
+    flex-grow: 1;
+  }
+  
+  .box {
+    text-align: justify;
+    background-color: #2e4053;
+    border-radius: 20px;
+    border-left: 7px solid #F0B27A;
+    padding: 16px;
+  }
+
+  .box-2 {
+    text-align: justify;
+    background-color: #212F3D;
+    border-radius: 20px;
+    border-left: 7px solid #F0B27A;
+    padding: 16px;
+  }
+  
+  p {
+    line-height: 25px;
+  }
+  
+  /* Para estilos sobre imágenes */
+  
+  .round-square-md {
+    display: block;
+    margin: auto;
+    width: 30%;
+    height: 35%;
+    border-radius: 5%;
+  }
